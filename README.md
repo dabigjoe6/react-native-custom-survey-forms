@@ -22,7 +22,7 @@ import { CreateCustomForm } from 'react-native-custom-survey-forms';
 
 const App = () => {
 	return (
-			<CreateCustomForm onSubmitForm={(form) => {
+		<CreateCustomForm onSubmitForm={(form) => {
         // Do something with form data
       }} />
 	);
